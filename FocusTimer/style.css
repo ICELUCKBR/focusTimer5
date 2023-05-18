@@ -6,12 +6,18 @@
 
 :root{
     font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
-    margin: 0 auto;
+    margin: auto 0;
+    
+}
+main{
+    display: flex;
     align-items: center;
     justify-content: center;
+    gap:19.2rem;
 }
 
 .container{
@@ -36,6 +42,27 @@ align-items: center;
     height: 4.8rem;
     width: 4.8rem;
     border: none;
-    background-color: red;
+    background-color: transparent;
     cursor: pointer;
+}
+
+.cards{
+    width: 30.8rem;
+    height: 33.6rem;
+    background-color:none;
+    display: grid;
+    grid-template-areas: 
+    "A B";
+    align-items: center;
+    justify-content: center;
+    gap:3.2rem;
+}
+
+.card{
+height: 15rem;
+width: 13rem;
+border-radius: 24px;
+background-color:rgb(224, 224, 229);
+cursor: pointer;
+
 }
