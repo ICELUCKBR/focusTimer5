@@ -1,68 +1,88 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-:root{
-    font-size: 62.5%;
-    font-family: 'Roboto', sans-serif;
+:root {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
 }
 
-body{
-    margin: auto 0;
-    
+body {
+  margin : 0 auto;
 }
-main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap:19.2rem;
-}
-
-.container{
-display: flex;
-flex-direction: column;
-align-items: center;
+main {
+  margin : 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 19.2rem;
 }
 
-#timer{
-    margin-bottom: 4.8rem;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin :  auto 0;
 }
 
-#timer span{
-    font-size: 12.5rem;
+#timer {
+  margin-bottom: 4.8rem;
 }
 
-#controls{
-    display: flex;
-    gap:4rem;
-}
-#controls button{
-    height: 4.8rem;
-    width: 4.8rem;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
+#timer span {
+  font-size: 12.5rem;
 }
 
-.cards{
-    width: 30.8rem;
-    height: 33.6rem;
-    background-color:none;
-    display: grid;
-    grid-template-areas: 
-    "A B";
-    align-items: center;
-    justify-content: center;
-    gap:3.2rem;
+#controls {
+  display: flex;
+  gap: 4rem;
+}
+#controls button {
+  height: 4.8rem;
+  width: 4.8rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
 
-.card{
-height: 15rem;
-width: 13rem;
-border-radius: 24px;
-background-color:rgb(224, 224, 229);
-cursor: pointer;
-
+.cards {
+  width: 30.8rem;
+  height: 33.6rem;
+  background-color: none;
+  display: grid;
+  grid-template-areas: "A B";
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
 }
+
+.card {
+  height: 15rem;
+  width: 13rem;
+  border-radius: 24px;
+  background-color: rgb(224, 224, 229);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card svg {
+  width: 5.2rem;
+  height: 5.6rem;
+}
+.select :nth-child(1){
+  fill:white;
+}
+
+.select {
+  background-color:rgb(21, 111, 153);
+}
+
+.hide{
+  display: none;
+}
+
+
